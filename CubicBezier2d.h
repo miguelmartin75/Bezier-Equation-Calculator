@@ -65,7 +65,7 @@ public:
 	}
 	double getAy() const
 	{
-		return (_end.x + 3 * (_controlPoint1.x - _controlPoint2.x) - _start.x);
+		return (_end.y + 3 * (_controlPoint1.y - _controlPoint2.y) - _start.y);
 	}
 	
 	
